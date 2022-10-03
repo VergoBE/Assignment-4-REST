@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Assignment_4_REST</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutumnAssignmentFootball">
+      <HintPath>..\..\..\..\Desktop\Mandatory Assignment 1\AutumnAssignmentFootball\AutumnAssignmentFootball\bin\Debug\net6.0\AutumnAssignmentFootball.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
